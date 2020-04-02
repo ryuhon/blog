@@ -9,14 +9,14 @@ nav_order: 3
 
 ## 전체백업
 ```bash
-mariabackup --backup --target-dir=/backup/전체백업폴더  --user=ryuhon  --password='패스워드'  --host=localhost --slave-info 
+mariabackup --backup --target-dir=/backup/전체백업폴더  --user=유저아이디  --password='패스워드'  --host=localhost --slave-info 
 ```
 ```bash
 mariabackup --prepare --target-dir=/backup/전체백업폴더
 ```
 ## 증분 백업후 전체 백업에 합치기 
 ```bash
-mariabackup --backup --target-dir=/backup/증분백업폴더 --incremental-basedir=/backup/전체백업폴더  --user=ryuhon  --password='패스워드'  --host=localhost --slave-info 
+mariabackup --backup --target-dir=/backup/증분백업폴더 --incremental-basedir=/backup/전체백업폴더  --user=유저아이디  --password='패스워드'  --host=localhost --slave-info 
 ```
 ```bash
 mariabackup --prepare --target-dir=/backup/전체백업폴더  --incremental-dir=/backup/증분백업폴더
