@@ -1,6 +1,6 @@
 ---
 layout: default
-title: k8s 시리즈 01 - kubeadm 설치
+title: k8s 시리즈 02 - kubeadm 설치
 nav_order: 6
 ---
 

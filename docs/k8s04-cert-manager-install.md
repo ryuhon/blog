@@ -1,6 +1,6 @@
 ---
 layout: default
-title: k8s 시리즈 01 - cert-manager 설치
+title: k8s 시리즈 04 - cert-manager 설치
 nav_order: 8
 ---
 
