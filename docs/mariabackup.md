@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mariabackup으로 증분백업하기 
-nav_order: 3
+nav_order: 4
 ---
 
 # Mariabackup으로 증분백업하기 
