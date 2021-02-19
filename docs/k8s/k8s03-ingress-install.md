@@ -1,7 +1,8 @@
 ---
 layout: default
-title: k8s 시리즈 03 - ingress 설치
-nav_order: 7
+title: 03 ingress 설치
+parent: 쿠버네티스
+nav_order: 3
 ---
 
 # Ingress 설치

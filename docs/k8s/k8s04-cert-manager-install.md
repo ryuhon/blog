@@ -1,8 +1,10 @@
 ---
 layout: default
-title: k8s 시리즈 04 - cert-manager 설치
-nav_order: 8
+title: 03 cert-manager 설치
+parent: 쿠버네티스
+nav_order: 4
 ---
+
 
 # Cert-Manager 설치
 

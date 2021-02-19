@@ -1,7 +1,8 @@
 ---
 layout: default
-title: k8s 시리즈 02 - kubeadm 설치
-nav_order: 6
+title: 02 kubeadm 설치
+parent: 쿠버네티스
+nav_order: 2
 ---
 
 # kubeadm 설치

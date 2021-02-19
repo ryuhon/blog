@@ -1,7 +1,8 @@
 ---
 layout: default
-title: k8s 시리즈 01 - 도커 설치 
-nav_order: 5
+title: 01 도커 설치
+parent: 쿠버네티스
+nav_order: 1
 ---
 
 # 도커설치
